@@ -368,7 +368,7 @@ nav nav i {
 /* Footer */
 .footer {
 	background: #121316;
-    color: white;
+	color: white;
 	font-size: 15px;
 	font-weight: 400;
 	padding: 15px 0px;
@@ -429,7 +429,7 @@ nav nav i {
     }
 
     .skills .table-details {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 
@@ -437,5 +437,31 @@ nav nav i {
     .projects .table-details {
         grid-template-columns: repeat(1, 1fr);
     }
+
+/* Education*/
+
+.education .item { 
+    display: block;
+}
+
+.education .item img {
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.education .item-heading {
+    font-size: 20px;
+}
+
+.education .item-desc1 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.education .item-desc2 {
+    font-size: 17px;
+    line-height: 30px;
+}
 
 }
